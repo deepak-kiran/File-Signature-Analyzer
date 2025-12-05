@@ -9,7 +9,7 @@ File Signature Analyzer is a lightweight cybersecurity utility that analyzes a f
 
 ## This project is useful for:
 
-- Malware analysis<br>
+- Extension mismatch<br>
 - File integrity verification<br>
 - Detecting spoofed or renamed files<br>
 - Cybersecurity learning and forensics<br>
