@@ -25,8 +25,8 @@ def get_header_trailer(path):
 # Prints the Detected Extension and returns it
 def validate_extension(ext_path):
     _, ext = os.path.splitext(ext_path)
-    ext = ext.lstrip('.').upper()
     print(f"\nGiven File extension: {ext}\n")
+    ext = ext.lstrip('.').upper()
     plain_txt_files = ["TXT","CSV","LOG"]
     markup_lang = ["HTML","XML","JSON"]
     config_files = ["INI","CFG","YAML"]
@@ -113,3 +113,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
