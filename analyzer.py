@@ -85,7 +85,7 @@ def main():
 
     #Takes file path as input and removes quotes ("",'')
     file_path = input("Please enter the File's path you want to check :- ")
-    file_path = file_path.replace('"','').replace("'","")
+    file_path = file_path.replace('"','').replace("'","").replace(" ","")
 
     header,trailer = get_header_trailer(file_path)
     key = normalize_hex(header)
@@ -113,4 +113,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
