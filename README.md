@@ -18,13 +18,13 @@ File Signature Analyzer is a lightweight cybersecurity utility that analyzes a f
 
 Every file begins with a specific byte sequence called a magic number.
 
-The Python script:
-Reads a database of magic numbers from Hex.csv
-Extracts the file’s actual header bytes
-Normalizes them for comparison
-Finds all database entries whose magic number is a prefix of the file header
-Finds the longest matching magic number
-Returns all the file descriptions associated with those strongest matches
+The Python script:<br>
+1. Reads a database of magic numbers from Hex.csv<br>
+2. Extracts the file’s actual header bytes<br>
+3. Normalizes them for comparison<br>
+4. Finds all database entries whose magic number is a prefix of the file header<br>
+5. Finds the longest matching magic number<br>
+6. Returns all the file descriptions associated with those strongest matches<br>
 
 This ensures highly accurate detection even when multiple formats share similar prefixes.
 
